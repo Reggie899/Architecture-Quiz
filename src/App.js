@@ -40,7 +40,7 @@ function App() {
     <div>
       <div>
         {" "}
-        <h1>Which Type Of Architecture Are You?</h1>
+        <h1> -- Which Type Of Architecture Are You?</h1>
         <button onClick={startQuiz}>Start</button>
       </div>
     </div>
