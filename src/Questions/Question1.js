@@ -51,7 +51,15 @@ export default function Question1() {
         1. You are invited to a party. How much effort do you put into dressing
         up?
       </h1>
-      <button onClick={modernMainstream}>Test</button>
-    </div>
+      <div className="">
+    <div onClick={traditionalMainstream} className=""><p>What do you mean? I am good to go as I am! I don’t need any styling. I brushed my teeth. That'll do it. </p></div>
+    <div onClick={modernMainstream} className=""><p>I want to look up to date fashion wise. If I don’t find something en vogue in my closet, I am going to buy something.  </p></div>
+    <div onClick={modernMainstream} className=""><p>I am choosing something very eccentric. I love to express myself that way. </p></div>
+    <div onClick={traditionalSpecific} className=""><p>As long as I find something clean and neat, I don’t particularly really care about fashion.</p></div>
+    <div onClick={traditionalSpecific} className=""><p>I dress very discreet. I want to avoid drawing too much attention to myself.</p></div>
+    <div onClick={modernSpecific} className=""><p>It depends on how I feel that day.</p></div>
+    <div onClick={traditionalMainstream} className=""><p>I like to dress in one or max two colors. All black or all white for example.</p></div>
+    <div onClick={modernSpecific} className=""><p>Anything that’s chic works for me.</p></div>
+    </div>    </div>
   );
 }
