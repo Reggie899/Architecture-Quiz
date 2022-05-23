@@ -45,64 +45,64 @@ export default function Question2() {
   }, []);
 
   return (
-    <div>
-      <h1>2. Pick your favorite tiles:</h1>
-      <div className="">
-        <div onClick={modernMainstream} className=" ">
+    <div className="FlexDisplay9">
+      <h1 className="h1Question">2. Pick your favorite tiles:</h1>
+      <div className="grid9">
+        <div onClick={modernMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/430207/pexels-photo-430207.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
             alt="pink/blue/abstract"
           />
         </div>
-        <div onClick={traditionalSpecific} className=" ">
+        <div onClick={traditionalSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/260286/pexels-photo-260286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="kegels"
           />
         </div>
-        <div onClick={traditionalMainstream} className=" ">
+        <div onClick={traditionalMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/206935/pexels-photo-206935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="green/bown/flowers"
           />
         </div>
-        <div onClick={modernSpecific} className=" ">
+        <div onClick={modernSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/3645123/pexels-photo-3645123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="brown circles"
           />
         </div>
-        <div onClick={modernSpecific} className=" ">
+        <div onClick={modernSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/2254103/pexels-photo-2254103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="yellow/black/vertical"
           />
         </div>
-        <div onClick={traditionalMainstream} className=" ">
+        <div onClick={traditionalMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/7245524/pexels-photo-7245524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="blue flowers"
           />
         </div>
-        <div onClick={modernSpecific} className=" ">
+        <div onClick={modernSpecific} className="gridImages">
           <img
-            src="https://www.pexels.com/de-de/foto/kunst-bau-muster-textur-7677994/"
+            src="https://images.pexels.com/photos/7677994/pexels-photo-7677994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="marble"
           />
         </div>
-        <div onClick={traditionalSpecific} className=" ">
+        <div onClick={traditionalSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/7077990/pexels-photo-7077990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="blue lines"
           />
         </div>
-        <div onClick={modernMainstream} className=" ">
+        <div onClick={modernMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/7245518/pexels-photo-7245518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="blue squares"
           />
         </div>
-      </div>{" "}
+      </div>{""}
     </div>
   );
 }

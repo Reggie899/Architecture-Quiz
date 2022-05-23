@@ -256,7 +256,7 @@ export default function Result() {
         You strive for power and top positions to make sure you are secured. Is
         it possible though that sometimes you are provocative and that way start
         arguments with others? Your motives are not always very clear to others.
-        Something you definitely deserve credit for though, is that you are very
+        Something you definitely deserve credit for though is that you are very
         curious. When you feel safe, you like to leave your comfort zone and
         explore new perspectives.
       </p>{" "}
@@ -330,7 +330,7 @@ export default function Result() {
         {traditional === 9 && mainstream > specific ? <Norman /> : null}
         {traditional === 9 && mainstream < specific ? <Pyramid /> : null}
       </div>
-      <div className="creator">
+      <div className="">
         Cereated by <a href="https://github.com/Reggie899">Reggie899</a>
       </div>
     </div>

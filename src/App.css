@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+body {
+  background-color: pink;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2 {
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h1Question {
+  margin: 5%;
+  border: blue 1px solid;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* 8 Questions */
+
+.grid8 {
+  margin: 5%;
+  border: 1px solid magenta;
+  display: grid;
+  gap: 25px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  grid-template-areas:
+    "text text"
+    "text text"
+    "text text"
+    "text text";
+}
+.withinGrid {
+  min-height: 180px;
+  background-color: rgba(149, 147, 147, 0.816);
   color: white;
+  padding: 0 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 1.3em;
 }
 
-.App-link {
-  color: #61dafb;
+/* 9 Images */
+
+.FlexDisplay9 {
+  border: 5px solid magenta;
+display: flex;
+flex-direction: column;
+justify-content: center;
+overflow: hidden;
+padding: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.grid9 {
+  display: grid;
+  gap: 25px;
+  justify-content: center;
+  grid-template-areas:
+    "photo"
+    "photo"
+    "photo"
+    "photo"
+    "photo"
+    "photo"
+    "photo"
+    "photo"
+    "photo"
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.gridImages img {
+  height: 370px;
+  width: 370px;
+  object-fit: cover;
 }
+

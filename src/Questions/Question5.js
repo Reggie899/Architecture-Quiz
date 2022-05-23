@@ -46,57 +46,57 @@ export default function Question5() {
 
   return (
     <div>
-      <h1>5. Pick your favorite dessert:</h1>
-      <div className="">
-        <div onClick={modernMainstream} className=" ">
+      <h1 className="h1Question">5. Pick your favorite dessert:</h1>
+      <div className="grid9">
+        <div onClick={modernMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/3625373/pexels-photo-3625373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="Sorbet"
           />
         </div>
-        <div onClick={modernSpecific} className=" ">
+        <div onClick={modernSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/5945660/pexels-photo-5945660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="Yoghurt"
           />
         </div>
-        <div onClick={traditionalSpecific} className=" ">
+        <div onClick={traditionalSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/827513/pexels-photo-827513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="berry cake"
           />
         </div>
-        <div onClick={traditionalSpecific} className=" ">
+        <div onClick={traditionalSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="brownie"
           />
         </div>
-        <div onClick={modernMainstream} className=" ">
+        <div onClick={modernMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/808923/pexels-photo-808923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="macarons"
           />
         </div>
-        <div onClick={traditionalMainstream} className=" ">
+        <div onClick={traditionalMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/2573870/pexels-photo-2573870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="natas"
           />
         </div>
-        <div onClick={traditionalMainstream} className=" ">
+        <div onClick={traditionalMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/407041/pancakes-maple-syrup-sweet-407041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="pancakes"
           />
         </div>
-        <div onClick={modernMainstream} className=" ">
+        <div onClick={modernMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/838846/pexels-photo-838846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="berries and fruits"
           />
         </div>
-        <div onClick={traditionalSpecific} className=" ">
+        <div onClick={traditionalSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/1660916/pexels-photo-1660916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="coffee"

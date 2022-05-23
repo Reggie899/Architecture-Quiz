@@ -45,58 +45,58 @@ export default function Question4() {
   }, []);
 
   return (
-    <div>
-      <h1>4. Which of these is your favorite activity? :</h1>
-      <div className="">
-        <div onClick={modernSpecific} className=" ">
+    <div className="FlexDisplay9">
+      <h1 className="h1Question">4. Which of these is your favorite activity?</h1>
+      <div className="grid9">
+        <div onClick={modernSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/3171815/pexels-photo-3171815.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="partying"
           />
         </div>
-        <div onClick={traditionalMainstream} className=" ">
+        <div onClick={traditionalMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="eating"
           />
         </div>
-        <div onClick={modernMainstream} className=" ">
+        <div onClick={modernMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/5082567/pexels-photo-5082567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="netflix"
           />
         </div>
-        <div onClick={traditionalMainstream} className=" ">
+        <div onClick={traditionalMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/4164459/pexels-photo-4164459.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="working out "
           />
         </div>
-        <div onClick={traditionalSpecific} className=" ">
+        <div onClick={traditionalSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/7004710/pexels-photo-7004710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="reading"
           />
         </div>
-        <div onClick={modernSpecific} className=" ">
+        <div onClick={modernSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/287398/pexels-photo-287398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="biking"
           />
         </div>
-        <div onClick={traditionalSpecific} className=" ">
+        <div onClick={traditionalSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/939722/pexels-photo-939722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="hiking"
           />
         </div>
-        <div onClick={modernMainstream} className=" ">
+        <div onClick={modernMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/1856488/pexels-photo-1856488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="traveling"
           />
         </div>
-        <div onClick={traditionalMainstream} className=" ">
+        <div onClick={traditionalMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/9072287/pexels-photo-9072287.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="gaming"

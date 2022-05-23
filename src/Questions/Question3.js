@@ -46,44 +46,44 @@ export default function Question3() {
 
   return (
     <div>
-      <h1>
+      <h1 className="h1Question">
         3. If one asked your best friend, what would they say your best trait is? 
       </h1>
-      <div className="">
-        <div onClick={traditionalSpecific} className="">
+      <div className="grid8">
+        <div onClick={traditionalSpecific} className="withinGrid">
           <p>
           dependable and trustworthy{" "}
           </p>
         </div>
-        <div onClick={modernMainstream} className="">
+        <div onClick={modernMainstream} className="withinGrid">
           <p>
             creative{" "}
           </p>
         </div>
-        <div onClick={modernSpecific} className="">
+        <div onClick={modernSpecific} className="withinGrid">
           <p>
             funny{" "}
           </p>
         </div>
-        <div onClick={traditionalSpecific} className="">
+        <div onClick={traditionalSpecific} className="withinGrid">
           <p>
           being understanding and good listener
           </p>
         </div>
-        <div onClick={modernSpecific} className="">
+        <div onClick={modernSpecific} className="withinGrid">
           <p>
           self-confident and inspiring 
           </p>
         </div>
-        <div onClick={traditionalMainstream} className="">
+        <div onClick={traditionalMainstream} className="withinGrid">
           <p>honest</p>
         </div>
-        <div onClick={traditionalMainstream} className="">
+        <div onClick={traditionalMainstream} className="withinGrid">
           <p>
            loyal
           </p>
         </div>
-        <div onClick={modernMainstream} className="">
+        <div onClick={modernMainstream} className="withinGrid">
           <p>supportive</p>
         </div>
       </div>{" "}
