@@ -45,7 +45,7 @@ export default function Question3() {
   }, []);
 
   return (
-    <div>
+    <div className="flexDisplay8">
       <h1 className="h1Question">
         3. If one asked your best friend, what would they say your best trait is? 
       </h1>

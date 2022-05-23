@@ -45,7 +45,7 @@ export default function Question5() {
   }, []);
 
   return (
-    <div>
+    <div className="flexDisplay9">
       <h1 className="h1Question">5. Pick your favorite dessert:</h1>
       <div className="grid9">
         <div onClick={modernMainstream} className="gridImages">

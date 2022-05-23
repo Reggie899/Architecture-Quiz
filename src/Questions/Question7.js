@@ -45,58 +45,58 @@ export default function Question7() {
   }, []);
 
   return (
-    <div>
-      <h1>7. What animal represents you? </h1>
-      <div className="">
-        <div onClick={modernMainstream} className=" ">
+    <div className="flexDisplay9">
+      <h1 className="h1Question">7. What animal represents you? </h1>
+      <div className="grid9">
+        <div onClick={modernMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/9713368/pexels-photo-9713368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="tiger"
           />
         </div>
-        <div onClick={traditionalMainstream} className=" ">
+        <div onClick={traditionalMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/1618606/pexels-photo-1618606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="turtle"
           />
         </div>
-        <div onClick={modernSpecific} className=" ">
+        <div onClick={modernSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/946344/pexels-photo-946344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="crow"
           />
         </div>
-        <div onClick={traditionalSpecific} className=" ">
+        <div onClick={traditionalSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/349758/hummingbird-bird-birds-349758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="hummingbird"
           />
         </div>
-        <div onClick={modernSpecific} className=" ">
+        <div onClick={modernSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/2683946/pexels-photo-2683946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="owl"
           />
         </div>
-        <div onClick={modernMainstream} className=" ">
+        <div onClick={modernMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/686094/pexels-photo-686094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="dog"
           />
         </div>
-        <div onClick={traditionalSpecific} className=" ">
+        <div onClick={traditionalSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/7658182/pexels-photo-7658182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="firefly"
           />
         </div>
-        <div onClick={traditionalMainstream} className=" ">
+        <div onClick={traditionalMainstream} className="gridImages">
           <img
             src="https://images.pexels.com/photos/1276553/pexels-photo-1276553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="cat"
           />
         </div>
-        <div onClick={traditionalSpecific} className=" ">
+        <div onClick={traditionalSpecific} className="gridImages">
           <img
             src="https://images.pexels.com/photos/918596/pexels-photo-918596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="wolf"

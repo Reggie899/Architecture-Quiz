@@ -45,7 +45,7 @@ export default function Question4() {
   }, []);
 
   return (
-    <div className="FlexDisplay9">
+    <div className="flexDisplay9">
       <h1 className="h1Question">4. Which of these is your favorite activity?</h1>
       <div className="grid9">
         <div onClick={modernSpecific} className="gridImages">

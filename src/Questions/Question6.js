@@ -41,24 +41,38 @@ export default function Question6() {
   };
 
   useEffect(() => {
-      console.log("test -modern:", modern, "mainstream:", mainstream );
-      
-  }, [])
+    console.log("test -modern:", modern, "mainstream:", mainstream);
+  }, []);
 
   return (
-    <div>
-      <h1>
-        6. What is your dream? 
-      </h1>
-      <div className="">
-    <div onClick={traditionalMainstream} className=""><p>Winning a Nobel prize.</p></div>
-    <div onClick={traditionalSpecific} className=""><p>Making your parents proud.</p></div>
-    <div onClick={modernSpecific} className=""><p>Becoming the top manager or founding your own company.</p></div>
-    <div onClick={modernSpecific} className=""><p>Just being left alone and doing your thing is enough.</p></div>
-    <div onClick={modernMainstream} className=""><p>Eternal youth and a beautiful body.</p></div>
-    <div onClick={traditionalSpecific} className=""><p>Always acting with integrity.</p></div>
-    <div onClick={traditionalMainstream} className=""><p>Making a lot of money and retiring early.</p></div>
-    <div onClick={modernMainstream} className=""><p>Helping Elon Musk in getting humanity to Mars.</p></div>
-    </div>    </div>
+    <div className="flexDisplay8">
+      <h1 className="h1Question">6. What is your dream?</h1>
+      <div className="grid8">
+        <div onClick={traditionalMainstream} className="withinGrid">
+          <p>Winning a Nobel prize.</p>
+        </div>
+        <div onClick={traditionalSpecific} className="withinGrid">
+          <p>Making your parents proud.</p>
+        </div>
+        <div onClick={modernSpecific} className="withinGrid">
+          <p>Becoming the top manager or founding your own company.</p>
+        </div>
+        <div onClick={modernSpecific} className="withinGrid">
+          <p>Just being left alone and doing your thing is enough.</p>
+        </div>
+        <div onClick={modernMainstream} className="withinGrid">
+          <p>Eternal youth and a beautiful body.</p>
+        </div>
+        <div onClick={traditionalSpecific} className="withinGrid">
+          <p>Always acting with integrity.</p>
+        </div>
+        <div onClick={traditionalMainstream} className="withinGrid">
+          <p>Making a lot of money and retiring early.</p>
+        </div>
+        <div onClick={modernMainstream} className="withinGrid">
+          <p>Helping Elon Musk in getting humanity to Mars.</p>
+        </div>
+      </div>{" "}
+    </div>
   );
 }

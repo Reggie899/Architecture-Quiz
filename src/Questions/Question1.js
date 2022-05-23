@@ -46,7 +46,7 @@ export default function Question1() {
   }, [])
 
   return (
-    <div>
+    <div className="flexDisplay8">
       <h1 className="h1Question">
         1. You are invited to a party. How much effort do you put into dressing
         up?

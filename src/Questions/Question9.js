@@ -46,19 +46,19 @@ export default function Question9() {
   }, [])
 
   return (
-    <div>
-      <h1>
+    <div className="flexDisplay8">
+      <h1 className="h1Question">
         9. You are out with a friend, what drink do you order? 
       </h1>
-      <div className="">
-    <div onClick={modernSpecific} className=""><p>Just water! Thanks!</p></div>
-    <div onClick={modernSpecific} className=""><p>A tasteful red wine.</p></div>
-    <div onClick={modernSpecific} className=""><p>Whisky for me, please</p></div>
-    <div onClick={modernMainstream} className=""><p>Beer!</p></div>
-    <div onClick={modernMainstream} className=""><p>I’ll check on the happy hour cocktails!</p></div>
-    <div onClick={traditionalSpecific} className=""><p>I’m picking a lemonade or some juice.</p></div>
-    <div onClick={traditionalSpecific} className=""><p>I’ll if they call a drink the speciality of their place and take that. </p></div>
-    <div onClick={modernSpecific} className=""><p>I am a gin lover.</p></div>
+      <div className="grid8">
+    <div onClick={traditionalMainstream} className="withinGrid"><p>Just water! Thanks!</p></div>
+    <div onClick={traditionalMainstream} className="withinGrid"><p>A tasteful red wine.</p></div>
+    <div onClick={modernSpecific} className="withinGrid"><p>Whisky for me, please</p></div>
+    <div onClick={modernMainstream} className="withinGrid"><p>Beer!</p></div>
+    <div onClick={modernMainstream} className="withinGrid"><p>I’ll check on the happy hour cocktails!</p></div>
+    <div onClick={traditionalSpecific} className="withinGrid"><p>I’m picking a lemonade or some juice.</p></div>
+    <div onClick={traditionalSpecific} className="withinGrid"><p>I’ll if they call a drink the speciality of their place and take that. </p></div>
+    <div onClick={modernSpecific} className="withinGrid"><p>I am a gin lover.</p></div>
     </div>    </div>
   );
 }

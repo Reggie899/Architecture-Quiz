@@ -45,7 +45,7 @@ export default function Question2() {
   }, []);
 
   return (
-    <div className="FlexDisplay9">
+    <div className="flexDisplay9">
       <h1 className="h1Question">2. Pick your favorite tiles:</h1>
       <div className="grid9">
         <div onClick={modernMainstream} className="gridImages">

@@ -8,18 +8,27 @@ h2 {
 }
 
 .h1Question {
+  text-align: center;
   margin: 5%;
   border: blue 1px solid;
 }
 
 /* 8 Questions */
 
+.flexDisplay8 {
+  border: 5px solid magenta;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5%;
+}
+
 .grid8 {
   margin: 5%;
   border: 1px solid magenta;
   display: grid;
   gap: 25px;
-  justify-content: center;
   grid-template-areas:
     "text text"
     "text text"
@@ -27,7 +36,7 @@ h2 {
     "text text";
 }
 .withinGrid {
-  min-height: 180px;
+  min-height: 220px;
   background-color: rgba(149, 147, 147, 0.816);
   color: white;
   padding: 0 8%;
@@ -41,13 +50,13 @@ h2 {
 
 /* 9 Images */
 
-.FlexDisplay9 {
+.flexDisplay9 {
   border: 5px solid magenta;
-display: flex;
-flex-direction: column;
-justify-content: center;
-overflow: hidden;
-padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5%;
 }
 
 .grid9 {
@@ -63,13 +72,49 @@ padding: 5%;
     "photo"
     "photo"
     "photo"
-    "photo"
-  }
-
+    "photo";
+}
 
 .gridImages img {
-  height: 370px;
-  width: 370px;
+  height: 330px;
+  width: 330px;
   object-fit: cover;
 }
 
+
+/* 4 Questions */ 
+
+.flexDisplay4 {
+  border: 5px solid magenta;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5%;
+}
+
+.grid4 {
+  margin: 5%;
+  border: 1px solid magenta;
+  display: grid;
+  gap: 25px;
+  grid-template-areas:
+    "text text"
+    "text text"
+    "text text"
+    "text text";
+}
+
+.withinGrid4 {
+  min-height: 220px;
+  min-width: 100px;
+  background-color: rgba(149, 147, 147, 0.816);
+  color: white;
+  padding: 0 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 1.3em;
+}

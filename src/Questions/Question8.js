@@ -46,15 +46,15 @@ export default function Question8() {
   }, [])
 
   return (
-    <div>
-      <h1>
+    <div className="flexDisplay4">
+      <h1 className="h1Question">
         8. Would you consider plastic surgery? 
       </h1>
-      <div className="">
-    <div onClick={traditionalMainstream} className=""><p>No way!</p></div>
-    <div onClick={modernMainstream} className=""><p>No, but I might change my mind. Who knows.</p></div>
-    <div onClick={modernMainstream} className=""><p>I am thinking about it.</p></div>
-    <div onClick={traditionalSpecific} className=""><p>Yes, absolutely!</p></div>
+      <div className="grid4">
+    <div onClick={traditionalMainstream} className="withinGrid4"><p>No way!</p></div>
+    <div onClick={modernMainstream} className="withinGrid4"><p>No, but I might change my mind. Who knows.</p></div>
+    <div onClick={modernMainstream} className="withinGrid4"><p>I am thinking about it.</p></div>
+    <div onClick={traditionalSpecific} className="withinGrid4"><p>Yes, absolutely!</p></div>
     </div>    </div>
   );
 }
