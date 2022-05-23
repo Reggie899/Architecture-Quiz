@@ -96,7 +96,7 @@ export default function Question4() {
             alt="traveling"
           />
         </div>
-        <div onClick={modernMainstream} className=" ">
+        <div onClick={traditionalMainstream} className=" ">
           <img
             src="https://images.pexels.com/photos/9072287/pexels-photo-9072287.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="gaming"
