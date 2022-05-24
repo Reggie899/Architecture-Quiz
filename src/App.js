@@ -37,11 +37,14 @@ function App() {
 
   // FrontPage Component to start with:
   const FrontPage = () => (
-    <div>
-      <div>
+    <div className="displayFrontPage">
+      <div className="frontSide1">
         {" "}
-        <h1> Which Type Of Architecture Are You?</h1>
-        <button onClick={startQuiz}>Start</button>
+        <h1 className="h1Question h1FrontPage"> Which Type Of <span className="architecture">Architecture</span> Are You?</h1>
+       <div className="buttonFrontDiv"> <button className="buttonFrontPage" onClick={startQuiz}>Start</button></div>
+      </div>
+      <div className="displayAnimation">
+        here goes the animation
       </div>
     </div>
   );

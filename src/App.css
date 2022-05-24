@@ -85,8 +85,7 @@ h2 {
   cursor: pointer;
 }
 
-
-/* 4 Questions */ 
+/* 4 Questions */
 
 .flexDisplay4 {
   border: 5px solid magenta;
@@ -123,11 +122,11 @@ h2 {
   line-height: 1.3em;
 }
 
-
-/* Result */ 
+/* Result */
 
 .displayResult {
-text-align: center;}
+  text-align: center;
+}
 
 .resultP {
   background-color: rgba(149, 147, 147, 0.816);
@@ -145,35 +144,31 @@ text-align: center;}
   object-fit: cover;
 }
 
+/* buttons */
 
-
-/* buttons */ 
-
-.buttonDiv button {
+.buttonDiv button, .buttonFrontPage {
   /* background-color: rgba(149, 147, 147, 0.816);
 color: white;
 width: 60px; 
 height: 60px;
 border-radius: 50%;
 border-color: transparent; */
-width: 60px; 
-height: 60px;
-border-color: transparent;
-border-radius: 150px;
-background: #FFC0CB;
-box-shadow:  4px -4px 7px #ebb1bb,
-             -4px 4px 7px #ffcfdb;
-             color: rgba(255, 255, 255, 0.597);
-             font-weight: bolder;
+  width: 60px;
+  height: 60px;
+  border-color: transparent;
+  border-radius: 150px;
+  background: #ffc0cb;
+  box-shadow: 4px -4px 7px #ebb1bb, -4px 4px 7px #ffcfdb;
+  color: rgba(255, 255, 255, 0.597);
+  font-weight: bolder;
 }
 
-button:hover {
+button:hover, .buttonFrontPage:hover {
   cursor: pointer;
   color: red;
   border-radius: 150px;
-background: #FFC0CB;
-box-shadow: inset -4px 4px 7px #ebb1bb,
-            inset 4px -4px 7px #ffcfdb;
+  background: #ffc0cb;
+  box-shadow: inset -4px 4px 7px #ebb1bb, inset 4px -4px 7px #ffcfdb;
 }
 
 .buttonDiv {
@@ -183,8 +178,7 @@ box-shadow: inset -4px 4px 7px #ebb1bb,
   padding: 3% 5% 1% 0;
 }
 
-
-/* Github Link */ 
+/* Github Link */
 
 .githubLink {
   font-weight: bolder;
@@ -192,16 +186,14 @@ box-shadow: inset -4px 4px 7px #ebb1bb,
   padding: 3%;
   width: 180px;
   border-radius: 150px;
-  background: #FFC0CB;
-  box-shadow:  -4px 4px 7px #ebb1bb,
-               4px -4px 7px #ffcfdb;
+  background: #ffc0cb;
+  box-shadow: -4px 4px 7px #ebb1bb, 4px -4px 7px #ffcfdb;
 }
 
 .githubLink:hover {
   border-radius: 150px;
-background: #FFC0CB;
-box-shadow: inset -4px 4px 7px #ebb1bb,
-            inset 4px -4px 7px #ffcfdb;
+  background: #ffc0cb;
+  box-shadow: inset -4px 4px 7px #ebb1bb, inset 4px -4px 7px #ffcfdb;
 }
 
 a {
@@ -210,5 +202,122 @@ a {
 }
 
 a:hover {
-color: rgb(241, 220, 220);
+  color: rgb(241, 220, 220);
+}
+
+/* front page */
+
+.h1FrontPage {
+  font-size: 2.7em;
+  line-height: 60px;
+  text-align: left;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.frontSide1 {
+  border: 3px solid purple;
+  width: 40%;
+  height: 75%;
+  margin: 1% 0 0 1%;
+
+}
+
+.displayFrontPage {
+  height: 100vh;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border: magenta 3px solid;
+}
+
+.displayAnimation {
+  border: 2px solid blue; 
+  height: 40%;
+  margin-top: 70%;
+}
+
+.buttonFrontDiv {
+  border: 2px solid blue; 
+display: flex;
+justify-content: center;
+  margin-top: 20%;
+}
+
+.architecture {
+animation: colorChange 9s ease infinite;
+min-height: 1em;
+display: block;
+border: 3px solid green;
+}
+
+@keyframes colorChange {
+  0% {
+    color: red;
+    font-family: 'Playfair Display SC', serif;  }
+  5% {
+    color: blue;
+    font-family: 'Source Code Pro', monospace;
+  }
+  /* 7% {
+    color: white;
+    font-family: 'Cinzel', serif;
+  } */
+  9% {
+    color: rgba(13, 13, 13, 0.744);
+    font-family: 'Fontdiner Swanky', cursive;
+  }
+  11% {
+    color: blue;
+    font-family: 'Source Code Pro', monospace;
+  }
+  14% {
+    color: magenta;
+    font-family: 'Montserrat', sans-serif;
+  }
+  20% {
+    color: red;
+    font-family: 'Playfair Display SC', serif;
+  }
+  /* 21% {
+    color: white;
+    font-family: 'Cinzel', serif;
+  } */
+  30% {
+    color: blue;
+    font-family: 'Source Code Pro', monospace;
+  }
+  /* 35% {
+    color: grey;
+  } */
+  49% {
+    color: rgb(18, 13, 107);
+    font-family: 'Cinzel', serif;
+  }
+  53% {
+    color: black;
+  }
+  69% {
+    color: orange;
+  }
+  73% {
+    color: red;
+    font-family: 'Playfair Display SC', serif;
+  }
+  78% {
+    color: blue; 
+    font-family: 'Source Code Pro', monospace;
+  }
+  80% {
+    color: magenta;
+    font-family: 'Montserrat', sans-serif;
+  }
+  95% {
+    color: rgba(98, 186, 76, 0.785);
+    font-family: 'Fontdiner Swanky', cursive;
+  }
+  100% {
+    color: red;
+    font-family: 'Playfair Display SC', serif;
+  }
 }
