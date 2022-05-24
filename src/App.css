@@ -37,6 +37,7 @@ h2 {
 }
 .withinGrid {
   min-height: 220px;
+  min-width: 110px;
   background-color: rgba(149, 147, 147, 0.816);
   color: white;
   padding: 0 8%;
