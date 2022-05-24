@@ -15,7 +15,7 @@ export default function Result() {
   const TimberFraming = () => (
     <div className="displayResult">
     <div className="gridImagesResult">
-            <h2 className="h1Question">The traditionalist</h2>{" "}
+            <h2 className="h1Question">Timber Framing - The traditionalist</h2>{" "}
       <img src="https://images.pexels.com/photos/2886284/pexels-photo-2886284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>{" "}
       <p className="resultP">
         You are timber framing as you love traditions, old objects and
@@ -46,7 +46,7 @@ export default function Result() {
   const Pagode = () => (
     <div className="displayResult">
     <div className="gridImagesResult">
-            <h2 className="h1Question">Pagode - modern believer </h2>{" "}
+            <h2 className="h1Question">Pagode - The modern believer </h2>{" "}
       <img src="https://images.pexels.com/photos/3204950/pexels-photo-3204950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>{" "}
       <p className="resultP">
         You are the pagoda as you are a modern believer. You go with the time,
@@ -119,7 +119,7 @@ export default function Result() {
   const Suburban = () => (
     <div className="displayResult">
     <div className="gridImagesResult">
-            <h2 className="h1Question">Suburban Home - Family person</h2>{" "}
+            <h2 className="h1Question">Suburban Home - The family person</h2>{" "}
       <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>{" "}
       <p className="resultP">
         You have a solid picture in your mind of how your life should look and
@@ -270,7 +270,7 @@ export default function Result() {
 
   const Brutalist = () => (
     <div className="displayResult">
-    <div className="gridImagesResult">      <h2 className="h1Question">Brutalist - The curious</h2>{" "}
+    <div className="gridImagesResult">      <h2 className="h1Question">Brutalist - The curious one</h2>{" "}
       <img src="https://images.pexels.com/photos/1835675/pexels-photo-1835675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>{" "}
       <p className="resultP">
         You are very clear and direct and you do not tolerate any disrespect.

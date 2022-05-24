@@ -16,7 +16,7 @@ h2 {
 /* 8 Questions */
 
 .flexDisplay8 {
-  border: 5px solid magenta;
+  /* border: 5px solid magenta; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@ h2 {
 
 .grid8 {
   margin: 5%;
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   display: grid;
   gap: 25px;
   grid-template-areas:
@@ -56,7 +56,7 @@ h2 {
 /* 9 Images */
 
 .flexDisplay9 {
-  border: 5px solid magenta;
+  /* border: 5px solid magenta; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,7 +93,7 @@ h2 {
 /* 4 Questions */
 
 .flexDisplay4 {
-  border: 5px solid magenta;
+  /* border: 5px solid magenta; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,19 +103,19 @@ h2 {
 
 .grid4 {
   margin: 5%;
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   display: grid;
   gap: 25px;
   grid-template-areas:
-    "text text"
-    "text text"
     "text text"
     "text text";
 }
 
 .withinGrid4 {
-  min-height: 220px;
-  min-width: 100px;
+  margin: 0 auto;
+  min-height: 180px;
+  min-width: 120px;
+  max-width: 120px;
   background-color: rgba(149, 147, 147, 0.816);
   color: white;
   padding: 0 8%;
@@ -172,14 +172,14 @@ border-color: transparent; */
 button:hover,
 .buttonFrontPage:hover {
   cursor: pointer;
-  color: red;
+  color: rgba(223, 140, 140, 0.649);
   border-radius: 150px;
   background: #ffc0cb;
   box-shadow: inset -4px 4px 7px #ebb1bb, inset 4px -4px 7px #ffcfdb;
 }
 
 .buttonDiv {
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   display: flex;
   justify-content: end;
   padding: 3% 5% 1% 0;
@@ -240,6 +240,7 @@ a:hover {
 .displayAnimation {
   /* border: 2px solid blue;  */
   height: 40%;
+  width: 400px;
   margin-top: 70%;
   position: relative;
 }
@@ -384,5 +385,186 @@ a:hover {
   }
   100% {
     content: "\f54f";
+  }
+}
+
+/* Media Queries */
+
+@media (min-width: 500px) {
+  .displayAnimation {
+    margin-top: 0;
+    height: 75%;
+  }
+
+  .icon {
+    top: 280px;
+  }
+
+  .withinGrid4 {
+    min-width: 160px;
+    max-width: 160px;
+  }
+}
+
+@media (min-width: 600px) {
+  .frontSide1 {
+    margin: 12% 0 0 9%;
+  }
+
+  .displayAnimation {
+    /* margin-top: 65%; */
+  }
+
+  .icon {
+    font-size: 13em;
+    left: -30px;
+  }
+
+  .withinGrid4,
+  .withinGrid {
+    min-width: 200px;
+    max-width: 200px;
+  }
+
+  .grid9 {
+    grid-template-areas:
+      "photo photo photo"
+      "photo photo photo"
+      "photo photo photo";
+  }
+
+  .gridImages img {
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 712px) {
+  .frontSide1 {
+    margin: 3% 0 0 9%;
+  }
+  .displayAnimation {
+    /* margin-top: 50%; */
+  }
+
+  .grid4 {
+    gap: 25px;
+    width: 80vw;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  }
+  .withinGrid4 {
+    margin: 0 auto;
+    min-width: 200px;
+    max-width: 200px;
+  }
+
+  .gridImagesResult img {
+    max-height: 500px;
+    max-width: 500px;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 800px) {
+  .displayFrontPage {
+    justify-content: center;
+  }
+
+  .h1Question {
+    margin-top: 0;
+  }
+
+  .frontSide1 {
+    width: 20%;
+  }
+
+  .displayAnimation {
+    /* margin-top: 50%; */
+  }
+
+  .icon {
+    font-size: 17em;
+    left: 50px;
+    /* top: -50px */
+  }
+
+  .withinGrid {
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  .grid8 {
+    grid-template-areas:
+      "text text text text"
+      "text text text text";
+  }
+
+  .grid9 {
+    grid-template-areas:
+      "photo photo photo"
+      "photo photo photo"
+      "photo photo photo";
+  }
+
+  .gridImages img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 900px) {
+  .icon {
+    font-size: 19em;
+    left: 0;
+    /* top: -200px */
+  }
+
+  .withinGrid {
+    min-width: 130px;
+    max-width: 130px;
+  }
+
+  .grid4 {
+    margin-top: -5px;
+  }
+
+  .grid8 {
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .withinGrid {
+    min-width: 170px;
+    max-width: 170px;
+  }
+  .grid9 {
+    grid-template-areas:
+      "photo photo photo"
+      "photo photo photo"
+      "photo photo photo";
+  }
+
+  .gridImages img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1330px) {
+  .grid9 {
+    grid-template-areas:
+      "photo photo photo"
+      "photo photo photo"
+      "photo photo photo";
+  }
+
+  .gridImages img {
+    height: 230px;
+    width: 230px;
+    object-fit: cover;
   }
 }
