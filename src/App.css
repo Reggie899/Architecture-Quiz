@@ -254,10 +254,13 @@ border: 3px solid green;
 @keyframes colorChange {
   0% {
     color: red;
-    font-family: 'Playfair Display SC', serif;  }
+    /* font-family: 'Playfair Display SC', serif;   */
+    font-family: Arial, Helvetica, sans-serif;
+  }
   5% {
     color: blue;
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /* 7% {
     color: white;
@@ -265,19 +268,21 @@ border: 3px solid green;
   } */
   9% {
     color: rgba(13, 13, 13, 0.744);
-    font-family: 'Fontdiner Swanky', cursive;
+    /* font-family: 'Fontdiner Swanky', cursive; */
+    font-family: 'Times New Roman', Times, serif;
   }
   11% {
     color: blue;
-    font-family: 'Source Code Pro', monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   14% {
     color: magenta;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
   }
   20% {
     color: red;
-    font-family: 'Playfair Display SC', serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
   /* 21% {
     color: white;
@@ -285,14 +290,15 @@ border: 3px solid green;
   } */
   30% {
     color: blue;
-    font-family: 'Source Code Pro', monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /* 35% {
     color: grey;
   } */
   49% {
     color: rgb(18, 13, 107);
-    font-family: 'Cinzel', serif;
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Times New Roman', Times, serif;
   }
   53% {
     color: black;
@@ -302,22 +308,23 @@ border: 3px solid green;
   }
   73% {
     color: red;
-    font-family: 'Playfair Display SC', serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
   78% {
     color: blue; 
-    font-family: 'Source Code Pro', monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   80% {
     color: magenta;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
   }
   95% {
     color: rgba(98, 186, 76, 0.785);
-    font-family: 'Fontdiner Swanky', cursive;
+    /* font-family: 'Fontdiner Swanky', cursive; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   100% {
     color: red;
-    font-family: 'Playfair Display SC', serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
