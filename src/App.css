@@ -36,9 +36,12 @@ h2 {
     "text text";
 }
 .withinGrid {
+  margin: 0 auto;
   min-height: 220px;
-  min-width: 110px;
-  max-width: 50%;
+  /* min-width: 110px;
+  max-width: 110px; */
+  min-width: 80%;
+  max-width: 80%;
   background-color: rgba(149, 147, 147, 0.816);
   color: white;
   padding: 0 8%;
@@ -148,7 +151,8 @@ h2 {
 
 /* buttons */
 
-.buttonDiv button, .buttonFrontPage {
+.buttonDiv button,
+.buttonFrontPage {
   /* background-color: rgba(149, 147, 147, 0.816);
 color: white;
 width: 60px; 
@@ -165,7 +169,8 @@ border-color: transparent; */
   font-weight: bolder;
 }
 
-button:hover, .buttonFrontPage:hover {
+button:hover,
+.buttonFrontPage:hover {
   cursor: pointer;
   color: red;
   border-radius: 150px;
@@ -221,7 +226,6 @@ a:hover {
   width: 40%;
   height: 75%;
   margin: 1% 0 0 3%;
-
 }
 
 .displayFrontPage {
@@ -238,23 +242,21 @@ a:hover {
   height: 40%;
   margin-top: 70%;
   position: relative;
-
 }
 
 .buttonFrontDiv {
   /* border: 2px solid blue;  */
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
   margin-top: 20%;
 }
 
 .architecture {
-min-height: 1em;
-display: block;
-/* border: 3px solid green; */
-animation: colorChange 9s ease infinite;
-font-family: 'Playfair Display SC', serif;  
-
+  min-height: 1em;
+  display: block;
+  /* border: 3px solid green; */
+  animation: colorChange 9s ease infinite;
+  font-family: "Playfair Display SC", serif;
 }
 
 @keyframes colorChange {
@@ -263,31 +265,31 @@ font-family: 'Playfair Display SC', serif;
   }
   5% {
     color: blue;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
   }
   9% {
     color: rgba(13, 13, 13, 0.744);
-    font-family: 'Fontdiner Swanky', cursive;
+    font-family: "Fontdiner Swanky", cursive;
   }
   11% {
     color: blue;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
   }
   14% {
     color: magenta;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   20% {
     color: red;
-    font-family: 'Playfair Display SC', serif;
+    font-family: "Playfair Display SC", serif;
   }
   30% {
     color: blue;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
   }
   49% {
     color: rgb(18, 13, 107);
-    font-family: 'Cinzel', serif;
+    font-family: "Cinzel", serif;
   }
   53% {
     color: black;
@@ -297,48 +299,45 @@ font-family: 'Playfair Display SC', serif;
   }
   73% {
     color: red;
-    font-family: 'Playfair Display SC', serif;
+    font-family: "Playfair Display SC", serif;
   }
   78% {
-    color: blue; 
-    font-family: 'Source Code Pro', monospace;
+    color: blue;
+    font-family: "Source Code Pro", monospace;
   }
   80% {
     color: magenta;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   95% {
     color: rgba(98, 186, 76, 0.785);
-    font-family: 'Fontdiner Swanky', cursive;
+    font-family: "Fontdiner Swanky", cursive;
   }
   100% {
     color: red;
-    font-family: 'Playfair Display SC', serif;
+    font-family: "Playfair Display SC", serif;
   }
 }
 
-/* icons */ 
+/* icons */
 
 .icon {
   font-size: 10em;
-/* position: absolute; */
-left: 8%;
-top: 10%;
-animation: colorChange 9s ease infinite;
-position: relative;
+  /* position: absolute; */
+  left: 8%;
+  top: 10%;
+  animation: colorChange 9s ease infinite;
+  position: relative;
 }
 
 .icon:after {
   position: absolute;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   /* left: 8%;
   top: 10%; */
   content: "\f015";
   animation: iconChange 9s ease infinite;
-
 }
-
-
 
 @keyframes iconChange {
   0% {
@@ -349,7 +348,6 @@ position: relative;
   }
   9% {
     content: "\f6a1";
-
   }
   11% {
     content: "\f015";
@@ -359,14 +357,12 @@ position: relative;
   }
   20% {
     content: "\f594";
-
   }
   30% {
     content: "\f015";
   }
   49% {
     content: "\f7ae";
-
   }
   53% {
     content: "\f51d";
@@ -376,22 +372,17 @@ position: relative;
   }
   73% {
     content: "\f594";
-
   }
   78% {
     content: "\f1ad";
   }
   80% {
     content: "\f6a1";
-
   }
   95% {
     content: "\f015";
-
   }
   100% {
     content: "\f54f";
-
   }
 }
-
