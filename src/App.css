@@ -118,3 +118,36 @@ h2 {
   font-weight: bolder;
   line-height: 1.3em;
 }
+
+
+/* Result */ 
+
+.displayResult {
+text-align: center;}
+
+.resultP {
+  background-color: rgba(149, 147, 147, 0.816);
+  color: white;
+  padding: 5%;
+  margin: 6% 17% 15% 17%;
+  line-height: 1.5em;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.gridImagesResult img {
+  height: 75%;
+  width: 75%;
+  object-fit: cover;
+}
+
+
+
+/* buttons */ 
+
+.buttonDiv {
+  border: 1px solid magenta;
+  display: flex;
+  justify-content: end;
+  padding: 3% 5% 1% 0;
+}
