@@ -40,11 +40,11 @@ function App() {
     <div className="displayFrontPage">
       <div className="frontSide1">
         {" "}
-        <h1 className="h1Question h1FrontPage"> Which Type Of <span className="architecture">Architecture</span> Are You?</h1>
+        <h1 className="h1Question h1FrontPage"> Which Type Of <div className="architecture">Architecture</div> Are You?</h1>
        <div className="buttonFrontDiv"> <button className="buttonFrontPage" onClick={startQuiz}>Start</button></div>
       </div>
       <div className="displayAnimation">
-        here goes the animation - test
+        here goes the animation - test!!
       </div>
     </div>
   );
