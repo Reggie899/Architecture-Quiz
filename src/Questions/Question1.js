@@ -60,6 +60,7 @@ export default function Question1() {
     <div onClick={modernSpecific} className="withinGrid"><p>It depends on how I feel that day.</p></div>
     <div onClick={traditionalMainstream} className="withinGrid"><p>I like to dress in one or max two colors. All black or all white for example.</p></div>
     <div onClick={modernSpecific} className="withinGrid"><p>Anything that’s chic works for me.</p></div>
-    </div>    </div>
+      </div>    
+    </div>
   );
 }

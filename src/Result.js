@@ -387,9 +387,7 @@ export default function Result() {
         {traditional === 6 && mainstream < specific ? <Pagode /> : null}
         {traditional === 7 && mainstream > specific ? <Baroque /> : null}
         {traditional === 7 && mainstream < specific ? <Mosque /> : null}
-        {traditional === 8 && mainstream > specific ? (
-          <ClassicalArchitecture />
-        ) : null}
+        {traditional === 8 && mainstream > specific ? <ClassicalArchitecture />: null}
         {traditional === 8 && mainstream < specific ? <Bhutanese /> : null}
         {traditional === 9 && mainstream > specific ? <Norman /> : null}
         {traditional === 9 && mainstream < specific ? <Pyramid /> : null}
