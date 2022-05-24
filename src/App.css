@@ -212,6 +212,7 @@ a:hover {
   line-height: 60px;
   text-align: left;
   font-family: 'Fontdiner Swanky', cursive;
+  animation: colorChange 9s ease infinite;
 
   /* font-family: 'Playfair Display SC', serif; */
 }
@@ -252,8 +253,8 @@ justify-content: center;
 min-height: 1em;
 display: block;
 /* border: 3px solid green; */
-animation: colorChange 9s ease infinite;
-font-family: 'Playfair Display SC', serif;  
+/* animation: colorChange 9s ease infinite; */
+/* font-family: 'Playfair Display SC', serif;   */
 
 }
 
