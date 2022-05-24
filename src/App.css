@@ -38,6 +38,7 @@ h2 {
 .withinGrid {
   min-height: 220px;
   min-width: 110px;
+  max-width: 50%;
   background-color: rgba(149, 147, 147, 0.816);
   color: white;
   padding: 0 8%;
