@@ -188,7 +188,7 @@ export default function Result() {
 
   const FirstTier = () => (
     <div className="displayResult">
-    <div className="gridImagesResult">      <h2 className="h1Question">Chinese First Tier - The hustler</h2>{" "}
+    <div className="gridImagesResult">      <h2 className="h1Question">Chinese First Tier City Architecture- The hustler</h2>{" "}
       <img src="https://images.pexels.com/photos/618079/pexels-photo-618079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>{" "}
       <p className="resultP">
         While others seem to deal with burnout and existential crises, you are
