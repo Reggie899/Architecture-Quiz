@@ -44,7 +44,7 @@ function App() {
        <div className="buttonFrontDiv"> <button className="buttonFrontPage" onClick={startQuiz}>Start</button></div>
       </div>
       <div className="displayAnimation">
-        here goes the animation - test
+        here goes the animation - 
       </div>
     </div>
   );
