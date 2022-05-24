@@ -10,7 +10,7 @@ h2 {
 .h1Question {
   text-align: center;
   margin: 5%;
-  border: blue 1px solid;
+  /* border: blue 1px solid; */
 }
 
 /* 8 Questions */
@@ -215,7 +215,7 @@ a:hover {
 }
 
 .frontSide1 {
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
   width: 40%;
   height: 75%;
   margin: 1% 0 0 1%;
@@ -228,11 +228,11 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  border: magenta 3px solid;
+  /* border: magenta 3px solid; */
 }
 
 .displayAnimation {
-  border: 2px solid blue; 
+  /* border: 2px solid blue;  */
   height: 40%;
   margin-top: 70%;
   position: relative;
@@ -240,7 +240,7 @@ a:hover {
 }
 
 .buttonFrontDiv {
-  border: 2px solid blue; 
+  /* border: 2px solid blue;  */
 display: flex;
 justify-content: center;
   margin-top: 20%;
@@ -249,26 +249,147 @@ justify-content: center;
 .architecture {
 min-height: 1em;
 display: block;
-border: 3px solid green;
-/* animation: colorChange 9s ease infinite; */
+/* border: 3px solid green; */
+animation: colorChange 9s ease infinite;
 font-family: 'Playfair Display SC', serif;  
 
 }
 
-
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  5% {
+    color: blue;
+    /* font-family: 'Source Code Pro', monospace; */
+  }
+  9% {
+    color: rgba(13, 13, 13, 0.744);
+    /* font-family: 'Fontdiner Swanky', cursive; */
+  }
+  11% {
+    color: blue;
+    /* font-family: 'Source Code Pro', monospace; */
+  }
+  14% {
+    color: magenta;
+    /* font-family: 'Montserrat', sans-serif; */
+  }
+  20% {
+    color: red;
+    /* font-family: 'Playfair Display SC', serif; */
+  }
+  30% {
+    color: blue;
+    /* font-family: 'Source Code Pro', monospace; */
+  }
+  49% {
+    color: rgb(18, 13, 107);
+    /* font-family: 'Cinzel', serif; */
+  }
+  53% {
+    color: black;
+  }
+  69% {
+    color: orange;
+  }
+  73% {
+    color: red;
+    /* font-family: 'Playfair Display SC', serif; */
+  }
+  78% {
+    color: blue; 
+    /* font-family: 'Source Code Pro', monospace; */
+  }
+  80% {
+    color: magenta;
+    /* font-family: 'Montserrat', sans-serif; */
+  }
+  95% {
+    color: rgba(98, 186, 76, 0.785);
+    /* font-family: 'Fontdiner Swanky', cursive; */
+  }
+  100% {
+    color: red;
+    /* font-family: 'Playfair Display SC', serif; */
+  }
+}
 
 /* icons */ 
 
-.icon {
+.btn {
   font-size: 10em;
-position: absolute;
+/* position: absolute; */
 left: 8%;
 top: 10%;
+animation: colorChange 9s ease infinite;
+position: relative;
 }
 
-.icon1 {
-  z-index: 15;
-  /* color: red; */
-  /* animation: colorChange 9s ease infinite; */
+.btn:after {
+  position: absolute;
+  font-family: 'FontAwesome';
+  /* left: 8%;
+  top: 10%; */
+  content: "\f015";
+  animation: iconChange 9s ease infinite;
 
 }
+
+
+
+@keyframes iconChange {
+  0% {
+    content: "\f015";
+  }
+  5% {
+    content: "\f19c";
+  }
+  9% {
+    content: "\f6a1";
+
+  }
+  11% {
+    content: "\f015";
+  }
+  14% {
+    content: "\f1ad";
+  }
+  20% {
+    content: "\f594";
+
+  }
+  30% {
+    content: "\f015";
+  }
+  49% {
+    content: "\f7ae";
+
+  }
+  53% {
+    content: "\f51d";
+  }
+  69% {
+    content: "\f1ad";
+  }
+  73% {
+    content: "\e587";
+
+  }
+  78% {
+    content: "\f1ad";
+  }
+  80% {
+    content: "\e52e";
+
+  }
+  95% {
+    content: "\f015";
+
+  }
+  100% {
+    content: "\f54f";
+
+  }
+}
+

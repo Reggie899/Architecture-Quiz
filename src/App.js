@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBuildingColumns, faHouse, faChurch,
-faHotel, faIgloo, faToriiGate, faCastle, faCabin, faTreeCity, faBuilding, 
+faHotel, faIgloo, faToriiGate, faCastle, faCabin, faTreeCity, faBuilding,
 faMountainCity, faShop } from '@fortawesome/free-solid-svg-icons';
-import { Span, ArchitectureIcon } from "./AnimationFrontPage.style";
+// import { Span, ArchitectureIcon } from "./AnimationFrontPage.style";
 
 import { useState } from "react";
 import "./App.css";
@@ -34,28 +34,40 @@ function App() {
   const [mainstream, setMainstream] = useState(0);
   const [specific, setSpecific] = useState(0);
 
+  // const goThroughArray = animationIconArray.map(icon => {console.log("icon", icon.iconName);
+  //   return icon.iconName});
 
-// const goThroughArray = animationIconArray.map(icon => {console.log("icon", icon.iconName);
-//   return icon.iconName});
-
-  let animationIconArray = [faHouse, faBuildingColumns, faToriiGate ]; 
-  let icon = animationIconArray[0];
+  // let animationIconArray = [faHouse, faBuildingColumns, faToriiGate ];
+  // let icon = animationIconArray[0];
 
   // FrontPage Component to start with:
   const FrontPage = () => (
     <div className="displayFrontPage">
       <div className="frontSide1">
         {" "}
-        <h1 className="h1Question h1FrontPage"> Which Type Of <Span><span className="architecture">Architecture</span></Span>Are You?</h1>
-       <div className="buttonFrontDiv"> <button className="buttonFrontPage" onClick={startQuiz}>Start</button></div>
+        <h1 className="h1Question h1FrontPage">
+          {" "}
+          Which Type Of{" "}
+          {/* <Span> */}
+            <span className="architecture">Architecture</span>
+          {/* </Span> */}
+          Are You?
+        </h1>
+        <div className="buttonFrontDiv">
+          {" "}
+          <button className="buttonFrontPage" onClick={startQuiz}>
+            Start
+          </button>
+        </div>
       </div>
       <div className="displayAnimation">
-        {/* 15 */} 
-        here goes the animation - test?
-        <ArchitectureIcon>
-        <FontAwesomeIcon className='icon icon1' icon={icon}/>
-        {/* <FontAwesomeIcon className='icon icon1' icon={faHouse}/> */}
-        {/* <FontAwesomeIcon className='icon icon2' icon={faBuildingColumns}/>
+        {/* 15
+        here goes the animation - test? */}
+        {/* <ArchitectureIcon> */}
+        <div className='btn'></ div>
+          {/* <FontAwesomeIcon className="icon" ></FontAwesomeIcon> */}
+          {/* <FontAwesomeIcon className='icon icon1' icon={faHouse}/> */}
+          {/* <FontAwesomeIcon className='icon icon2' icon={faBuildingColumns}/>
         <FontAwesomeIcon className='icon icon3' icon={faToriiGate}/>
         <FontAwesomeIcon className='icon icon4' icon={faHouse}/>
         <FontAwesomeIcon className='icon icon5' icon={faBuilding}/>
@@ -69,9 +81,9 @@ function App() {
         <FontAwesomeIcon className='icon icon13' icon={faMountainCity}/>
         <FontAwesomeIcon className='icon icon14' icon={faHouse}/>
         <FontAwesomeIcon className='icon icon15' icon={faShop}/> */}
-        </ArchitectureIcon>
-        </div>
-        </div>
+        {/* </ArchitectureIcon> */}
+      </div>
+    </div>
   );
 
   function startQuiz() {
@@ -81,11 +93,11 @@ function App() {
   return (
     <div className="App">
       {question === 0 ? <FrontPage /> : null}
-      <QuestionCounter.Provider value={{question, setQuestion}}>
-        <Mainstream.Provider value={{mainstream, setMainstream}}>
-          <Specific.Provider value={{specific, setSpecific}}>
-            <Modern.Provider value={{modern, setModern}}>
-              <Traditional.Provider value={{traditional, setTraditional}}>
+      <QuestionCounter.Provider value={{ question, setQuestion }}>
+        <Mainstream.Provider value={{ mainstream, setMainstream }}>
+          <Specific.Provider value={{ specific, setSpecific }}>
+            <Modern.Provider value={{ modern, setModern }}>
+              <Traditional.Provider value={{ traditional, setTraditional }}>
                 {question === 1 ? <Question1 /> : null}
                 {question === 2 ? <Question2 /> : null}
                 {question === 3 ? <Question3 /> : null}
