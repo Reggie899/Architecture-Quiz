@@ -81,6 +81,10 @@ h2 {
   object-fit: cover;
 }
 
+.gridImages img:hover {
+  cursor: pointer;
+}
+
 
 /* 4 Questions */ 
 
@@ -144,6 +148,26 @@ text-align: center;}
 
 
 /* buttons */ 
+
+button {
+  /* background-color: rgba(149, 147, 147, 0.816);
+color: white;
+width: 60px; 
+height: 60px;
+border-radius: 50%;
+border-color: transparent; */
+width: 60px; 
+height: 60px;
+border-color: transparent;
+border-radius: 47px;
+background: #919191;
+box-shadow:  -18px 18px 20px #7b7b7b,
+             18px -18px 20px #a7a7a7;
+}
+
+button:hover {
+  cursor: pointer;
+}
 
 .buttonDiv {
   border: 1px solid magenta;
