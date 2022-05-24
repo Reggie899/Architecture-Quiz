@@ -56,7 +56,7 @@ function App() {
         <div className="buttonFrontDiv">
           {" "}
           <button className="buttonFrontPage" onClick={startQuiz}>
-            Start
+            START
           </button>
         </div>
       </div>
