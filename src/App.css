@@ -249,13 +249,13 @@ min-height: 1em;
 display: block;
 border: 3px solid green;
 animation: colorChange 9s ease infinite;
+font-family: 'Playfair Display SC', serif;  
 
 }
 
 @keyframes colorChange {
   0% {
     color: red;
-    font-family: 'Playfair Display SC', serif;  
   }
   5% {
     color: blue;
