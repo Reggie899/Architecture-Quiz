@@ -211,8 +211,6 @@ a:hover {
   font-size: 2.7em;
   line-height: 60px;
   text-align: left;
-  animation: colorChange 9s ease infinite;
-
   /* font-family: 'Playfair Display SC', serif; */
 }
 
@@ -250,6 +248,8 @@ justify-content: center;
 min-height: 1em;
 display: block;
 border: 3px solid green;
+animation: colorChange 9s ease infinite;
+
 }
 
 @keyframes colorChange {
@@ -259,42 +259,31 @@ border: 3px solid green;
   }
   5% {
     color: blue;
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
   }
-  /* 7% {
-    color: white;
-    font-family: 'Cinzel', serif;
-  } */
   9% {
     color: rgba(13, 13, 13, 0.744);
-    font-family: 'Fontdiner Swanky', cursive;
+    /* font-family: 'Fontdiner Swanky', cursive; */
   }
   11% {
     color: blue;
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
   }
   14% {
     color: magenta;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
   }
   20% {
     color: red;
-    font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Playfair Display SC', serif; */
   }
-  /* 21% {
-    color: white;
-    font-family: 'Cinzel', serif;
-  } */
   30% {
     color: blue;
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
   }
-  /* 35% {
-    color: grey;
-  } */
   49% {
     color: rgb(18, 13, 107);
-    font-family: 'Cinzel', serif;
+    /* font-family: 'Cinzel', serif; */
   }
   53% {
     color: black;
@@ -304,22 +293,22 @@ border: 3px solid green;
   }
   73% {
     color: red;
-    font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Playfair Display SC', serif; */
   }
   78% {
     color: blue; 
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
   }
   80% {
     color: magenta;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
   }
   95% {
     color: rgba(98, 186, 76, 0.785);
-    font-family: 'Fontdiner Swanky', cursive;
+    /* font-family: 'Fontdiner Swanky', cursive; */
   }
   100% {
     color: red;
-    font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Playfair Display SC', serif; */
   }
 }
