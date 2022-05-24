@@ -218,7 +218,7 @@ a:hover {
   /* border: 3px solid purple; */
   width: 40%;
   height: 75%;
-  margin: 1% 0 0 1%;
+  margin: 1% 0 0 3%;
 
 }
 
@@ -380,7 +380,7 @@ position: relative;
     content: "\f1ad";
   }
   80% {
-    content: "\e52e";
+    content: "\f6a1";
 
   }
   95% {
