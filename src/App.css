@@ -159,22 +159,21 @@ border-color: transparent; */
 width: 60px; 
 height: 60px;
 border-color: transparent;
-border-radius: 47px;
-border-radius: 47px;
-border-radius: 47px;
-border-radius: 47px;
-border-radius: 47px;
-border-radius: 47px;
-border-radius: 47px;
+border-radius: 150px;
 background: #FFC0CB;
-box-shadow:  -4px 4px 8px #d9a3ad,
-             4px -4px 8px #ffdde9;
+box-shadow:  4px -4px 7px #ebb1bb,
+             -4px 4px 7px #ffcfdb;
              color: rgba(255, 255, 255, 0.597);
              font-weight: bolder;
 }
 
 button:hover {
   cursor: pointer;
+  color: red;
+  border-radius: 150px;
+background: #FFC0CB;
+box-shadow: inset -4px 4px 7px #ebb1bb,
+            inset 4px -4px 7px #ffcfdb;
 }
 
 .buttonDiv {
@@ -182,4 +181,34 @@ button:hover {
   display: flex;
   justify-content: end;
   padding: 3% 5% 1% 0;
+}
+
+
+/* Github Link */ 
+
+.githubLink {
+  font-weight: bolder;
+  margin: 6%;
+  padding: 3%;
+  width: 180px;
+  border-radius: 150px;
+  background: #FFC0CB;
+  box-shadow:  -4px 4px 7px #ebb1bb,
+               4px -4px 7px #ffcfdb;
+}
+
+.githubLink:hover {
+  border-radius: 150px;
+background: #FFC0CB;
+box-shadow: inset -4px 4px 7px #ebb1bb,
+            inset 4px -4px 7px #ffcfdb;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+color: rgb(241, 220, 220);
 }
