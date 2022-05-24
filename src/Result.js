@@ -355,7 +355,7 @@ export default function Result() {
         {traditional === 9 && mainstream < specific ? <Pyramid /> : null}
       </div>
       <div className="">
-        Cereated by <a href="https://github.com/Reggie899">Reggie899</a>
+        Created by <a href="https://github.com/Reggie899">Reggie899</a>
       </div>
     </div>
   );

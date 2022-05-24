@@ -149,7 +149,7 @@ text-align: center;}
 
 /* buttons */ 
 
-button {
+.buttonDiv button {
   /* background-color: rgba(149, 147, 147, 0.816);
 color: white;
 width: 60px; 
@@ -161,9 +161,14 @@ height: 60px;
 border-color: transparent;
 border-radius: 47px;
 border-radius: 47px;
+border-radius: 47px;
+border-radius: 47px;
+border-radius: 47px;
+border-radius: 47px;
+border-radius: 47px;
 background: #FFC0CB;
-box-shadow:  5px -5px 9px #d6a0c9,
-             -5px 5px 9px #ffd8ff;
+box-shadow:  -4px 4px 8px #d9a3ad,
+             4px -4px 8px #ffdde9;
              color: rgba(255, 255, 255, 0.597);
              font-weight: bolder;
 }
