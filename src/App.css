@@ -261,31 +261,31 @@ font-family: 'Playfair Display SC', serif;
   }
   5% {
     color: blue;
-    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Source Code Pro', monospace;
   }
   9% {
     color: rgba(13, 13, 13, 0.744);
-    /* font-family: 'Fontdiner Swanky', cursive; */
+    font-family: 'Fontdiner Swanky', cursive;
   }
   11% {
     color: blue;
-    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Source Code Pro', monospace;
   }
   14% {
     color: magenta;
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
   }
   20% {
     color: red;
-    /* font-family: 'Playfair Display SC', serif; */
+    font-family: 'Playfair Display SC', serif;
   }
   30% {
     color: blue;
-    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Source Code Pro', monospace;
   }
   49% {
     color: rgb(18, 13, 107);
-    /* font-family: 'Cinzel', serif; */
+    font-family: 'Cinzel', serif;
   }
   53% {
     color: black;
@@ -295,29 +295,29 @@ font-family: 'Playfair Display SC', serif;
   }
   73% {
     color: red;
-    /* font-family: 'Playfair Display SC', serif; */
+    font-family: 'Playfair Display SC', serif;
   }
   78% {
     color: blue; 
-    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Source Code Pro', monospace;
   }
   80% {
     color: magenta;
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
   }
   95% {
     color: rgba(98, 186, 76, 0.785);
-    /* font-family: 'Fontdiner Swanky', cursive; */
+    font-family: 'Fontdiner Swanky', cursive;
   }
   100% {
     color: red;
-    /* font-family: 'Playfair Display SC', serif; */
+    font-family: 'Playfair Display SC', serif;
   }
 }
 
 /* icons */ 
 
-.btn {
+.icon {
   font-size: 10em;
 /* position: absolute; */
 left: 8%;
@@ -326,7 +326,7 @@ animation: colorChange 9s ease infinite;
 position: relative;
 }
 
-.btn:after {
+.icon:after {
   position: absolute;
   font-family: 'FontAwesome';
   /* left: 8%;

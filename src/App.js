@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBuildingColumns, faHouse, faChurch,
 faHotel, faIgloo, faToriiGate, faCastle, faCabin, faTreeCity, faBuilding,
 faMountainCity, faShop } from '@fortawesome/free-solid-svg-icons';
-// import { Span, ArchitectureIcon } from "./AnimationFrontPage.style";
 
 import { useState } from "react";
 import "./App.css";
@@ -34,12 +33,6 @@ function App() {
   const [mainstream, setMainstream] = useState(0);
   const [specific, setSpecific] = useState(0);
 
-  // const goThroughArray = animationIconArray.map(icon => {console.log("icon", icon.iconName);
-  //   return icon.iconName});
-
-  // let animationIconArray = [faHouse, faBuildingColumns, faToriiGate ];
-  // let icon = animationIconArray[0];
-
   // FrontPage Component to start with:
   const FrontPage = () => (
     <div className="displayFrontPage">
@@ -48,9 +41,7 @@ function App() {
         <h1 className="h1Question h1FrontPage">
           {" "}
           Which Type Of{" "}
-          {/* <Span> */}
             <span className="architecture">Architecture</span>
-          {/* </Span> */}
           Are You?
         </h1>
         <div className="buttonFrontDiv">
@@ -61,27 +52,7 @@ function App() {
         </div>
       </div>
       <div className="displayAnimation">
-        {/* 15
-        here goes the animation - test? */}
-        {/* <ArchitectureIcon> */}
-        <div className='btn'></ div>
-          {/* <FontAwesomeIcon className="icon" ></FontAwesomeIcon> */}
-          {/* <FontAwesomeIcon className='icon icon1' icon={faHouse}/> */}
-          {/* <FontAwesomeIcon className='icon icon2' icon={faBuildingColumns}/>
-        <FontAwesomeIcon className='icon icon3' icon={faToriiGate}/>
-        <FontAwesomeIcon className='icon icon4' icon={faHouse}/>
-        <FontAwesomeIcon className='icon icon5' icon={faBuilding}/>
-        <FontAwesomeIcon className='icon icon6' icon={faHotel}/>
-        <FontAwesomeIcon className='icon icon7' icon={faHouse}/>
-        <FontAwesomeIcon className='icon icon8' icon={faIgloo}/>
-        <FontAwesomeIcon className='icon icon9' icon={faChurch}/>
-        <FontAwesomeIcon className='icon icon10' icon={faBuilding}/>
-        <FontAwesomeIcon className='icon icon11' icon={faTreeCity}/>
-        <FontAwesomeIcon className='icon icon12' icon={faBuilding}/>
-        <FontAwesomeIcon className='icon icon13' icon={faMountainCity}/>
-        <FontAwesomeIcon className='icon icon14' icon={faHouse}/>
-        <FontAwesomeIcon className='icon icon15' icon={faShop}/> */}
-        {/* </ArchitectureIcon> */}
+        <div className='icon'></ div>
       </div>
     </div>
   );
