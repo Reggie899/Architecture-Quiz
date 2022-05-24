@@ -161,8 +161,8 @@ height: 60px;
 border-color: transparent;
 border-radius: 47px;
 background: #919191;
-box-shadow:  -4px 4px 7px #7b7b7b,
-             4px -4px 7px #a7a7a7;
+box-shadow:  -2px 2px 5px #7b7b7b,
+             2px -2px 5px #a7a7a7;
 }
 
 button:hover {
