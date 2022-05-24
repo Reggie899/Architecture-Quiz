@@ -160,10 +160,11 @@ width: 60px;
 height: 60px;
 border-color: transparent;
 border-radius: 47px;
-background: #919191;
-box-shadow:  -1px 1px 3px #7b7b7b,
-             1px -1px 3px #a7a7a7;
-             color: white;
+border-radius: 47px;
+background: #FFC0CB;
+box-shadow:  5px -5px 9px #d6a0c9,
+             -5px 5px 9px #ffd8ff;
+             color: rgba(255, 255, 255, 0.597);
              font-weight: bolder;
 }
 
