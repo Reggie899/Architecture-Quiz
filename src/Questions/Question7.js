@@ -60,8 +60,8 @@ export default function Question7() {
             alt="turtle"
           />
         </div>
-        <div onClick={modernSpecific} className="gridImages">
-          <img
+        <div onClick={modernSpecific} className="gridImages crow">
+          <img className=""
             src="https://images.pexels.com/photos/946344/pexels-photo-946344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             alt="crow"
           />

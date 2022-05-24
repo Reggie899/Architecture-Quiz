@@ -35,6 +35,11 @@ h2 {
     "text text"
     "text text";
 }
+
+.grid8 div:hover {
+cursor: pointer;
+}
+
 .withinGrid {
   margin: 0 auto;
   min-height: 220px;
@@ -88,6 +93,17 @@ h2 {
 
 .gridImages img:hover {
   cursor: pointer;
+}
+
+.crow {
+}
+
+.grid9 .crow {
+
+}
+
+.grid9 .crow img {
+object-position: 0;
 }
 
 /* 4 Questions */
