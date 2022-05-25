@@ -36,8 +36,10 @@ h2 {
     "text text";
 }
 
-.grid8 div:hover {
-cursor: pointer;
+.grid8 div:hover,
+.grid4 div:hover {
+  cursor: pointer;
+  background-color: grey;
 }
 
 .withinGrid {
@@ -99,11 +101,10 @@ cursor: pointer;
 }
 
 .grid9 .crow {
-
 }
 
 .grid9 .crow img {
-object-position: 0;
+  object-position: 0;
 }
 
 /* 4 Questions */
