@@ -392,9 +392,6 @@ export default function Result() {
         {traditional === 9 && mainstream > specific ? <Norman /> : null}
         {traditional === 9 && mainstream < specific ? <Pyramid /> : null}
       </div>
-      <a target="_blank" href="https://github.com/Reggie899">
-        <div className="githubLink">Created by Reggie899</div>
-      </a>
     </div>
   );
   return (

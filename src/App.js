@@ -84,6 +84,10 @@ function App() {
           </Specific.Provider>
         </Mainstream.Provider>
       </QuestionCounter.Provider>
+     {/* <div class="codeLink"><a href="https://github.com/Reggie899/Architecture-Quiz" target="_blank">Coded by Regina Schmidt - Check out code</a></div>  */}
+     <a target="_blank" href="https://github.com/Reggie899">
+        <div className="githubLink">Created by Reggie899</div>
+      </a>
     </div>
   );
 }
