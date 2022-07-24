@@ -7,15 +7,7 @@ h2 {
   color: red;
 }
 
-/* fontdiner-swanky-regular - latin */
-@font-face {
-  font-family: 'Fontdiner Swanky';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('./fonts/fontdiner-swanky-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/fontdiner-swanky-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+
 
 .h1Question {
   text-align: center;
@@ -285,6 +277,55 @@ a:hover {
   /* border: 3px solid green; */
   animation: colorChange 9s ease infinite;
   font-family: "Playfair Display SC", serif;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/cinzel-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/cinzel-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* source-code-pro-regular - latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/source-code-pro-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/source-code-pro-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* fontdiner-swanky-regular - latin */
+@font-face {
+  font-family: 'Fontdiner Swanky';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/fontdiner-swanky-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/fontdiner-swanky-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* playfair-display-sc-regular - latin */
+@font-face {
+  font-family: 'Playfair Display SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/playfair-display-sc-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/playfair-display-sc-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @keyframes colorChange {
