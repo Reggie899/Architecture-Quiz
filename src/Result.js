@@ -93,7 +93,7 @@ export default function Result() {
         <h2 className="h1Question">Baroque - You have class</h2>{" "}
         <img src="https://images.pexels.com/photos/3229580/pexels-photo-3229580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img>{" "}
         <p className="resultP">
-          You are Baroque, because your level of class and style is unbeautiful.
+          You are Baroque, because your level of class and style is beautiful.
           You are what Anna Denvy always wanted to be without even faking any of
           it. You probably own a collection of expensive sunglasses or shoes,
           your hair always smells good and your exclusive accessoires are the
